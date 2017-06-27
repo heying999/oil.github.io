@@ -1,0 +1,26 @@
+html, body {
+  /*background: #55bb55;*/
+  background: #DDDDDD;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+  -webkit-filter: blur(119px) saturate(9);
+          filter: blur(119px) saturate(9);
+}
+
+#container {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+#container div {
+  height: 60%;
+  width: 60%;
+  background: #fc00ff;
+  background: -webkit-radial-gradient(circle, #ff0044, #00dbde);
+  background: radial-gradient(circle, #ff0000, #00dbde);
+  position: absolute;
+  border-radius: 50%;
+}
